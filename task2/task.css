@@ -1,0 +1,25 @@
+body {
+    background-color: #e9e9e9;
+}
+header{background-color: white;
+   height: 48px;
+}
+.navlinks {
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    margin-left: 40px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    padding: 60px;
+}
+.heading{font-family: "Teko", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap");}
+    button{ 
+            font-size: 2em;
+        
+    }

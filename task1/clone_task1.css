@@ -1,0 +1,103 @@
+body {
+    background-color: #e9e9e9;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+@media (max-width: 1024px) {
+    .logo {
+        width: 200px;
+        align-items: center;
+        padding: 20px;
+    }
+}
+
+.navlinks {
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    margin-left: 40px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    padding: 60px;
+}
+
+.desktop_design {
+    background-color: white;
+
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    max-width: 800px;
+    max-height: 1000px;
+    height: 300px;
+    /* Should be removed. Only for demonstration */
+
+    margin-left: 10%;
+}
+
+.pictures{ 
+    margin: 20px;
+}
+.pic_1{align-content: center;
+    display: grid;
+}
+.pic_2{margin-left: 10%;
+    margin-bottom: 15%;}
+.pic_3{margin-bottom: 15%;}
+.pic_4{margin-top:10%;
+margin-right:10%}
+.pic_5{
+    margin-right:10%
+}
+    /*.pictures {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 8px;
+    }
+        
+    .pic_1 {
+        grid-column: span 2 / span 2;
+        grid-row: span 2 / span 2;
+    }
+
+    .pic_2 {
+        grid-column-start: 3;
+    }
+
+    .pic_3 {
+        grid-column-start: 4;
+    }
+
+    .pic_4 {
+        grid-column-start: 3;
+        grid-row-start: 2;
+    }
+
+    .pic_5 {
+        grid-column-start: 4;
+        grid-row-start: 2;
+    }
+*/
