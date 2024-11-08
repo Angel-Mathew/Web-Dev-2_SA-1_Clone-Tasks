@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Guerrilla&display=swap');
+body {
+    background-color: #e9e9e9;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.logo {
+    width: 200px;
+    height: auto;
+    margin-bottom: 1rem;
+    align-items: center;
+}
+
+.navlinks {
+    color: rgb(12, 12, 12);
+    display: flex;
+    align-items: center;
+    margin: 60px;
+    margin-left: 40px;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+li {
+    padding: 60px;
+}
+
+.desktop_design {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 150px 20px 150px;
+
+}
+
+.main-para h1,h2, h3, h4{
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 400;
+    font-style: normal;      
+}
+
+.desktop_design p {
+    font-family: "Josefin Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.images {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 0;
+    margin-left: 100px;
+}
+
+.pictures {
+    grid-column: 2/3;
+    display: grid;
+    grid-template-columns: 1fr, 2fr;
+    grid-template-rows: 1fr, 2fr;
+    gap: 0;
+    height: 200px;
+    width: 200px;
+    margin-top: -1000px;
+
+}
+
+.featured-image {
+    grid-column: 1/3;
+    display: grid;
+    align-items:center ;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
