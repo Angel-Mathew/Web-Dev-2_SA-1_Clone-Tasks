@@ -299,18 +299,26 @@ padding:0;
 margin-bottom: 8%;}
 
     /* Responsive Styling */
-    @media (min-width: 720px) {
+    /*for mobiles*/
+    @media (min-width: 360px) and (max-width:720px){
+        header{margin:16px;
+        padding:16px;
+    gap:16px}
+    }
+    /*for tablet*/
+    @media (min-width: 720px) and (max-width:1024px) {
         header {
-            padding: 8px 32px; /* Tablet large spacing, but thinner */
+            padding: 8px 32px; 
         }
         .heading {
-            font-size: 3em; /* Tablet and desktop font size */
+            font-size: 3em; 
         }
         .navlinks {
-            gap: 32px; /* Larger spacing on tablet */
+            gap: 32px;
         }
     }
     
+    /*for Desktop*/
     @media (min-width: 1024px) {
         header {
             padding: 8px 48px; /* Desktop large spacing, but thinner */
