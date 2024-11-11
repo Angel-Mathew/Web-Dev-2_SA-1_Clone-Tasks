@@ -1,72 +1,333 @@
+ /*importing forts*/
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Teko:wght@300..700&display=swap');
 /*font for heading*/
 .heading h2{font-family: "Teko", serif;
-     font-weight: 400;
-    font-style: normal;
-    font-size: 1.5em;
+    font-weight: 400;
+   font-style: normal;
+   font-size: 1.5em;
 }
-   
- /*font for paragraph*/   
+h1{margin-left: 1%;}
+  
+/*font for paragraph*/   
 .paragraph{font-family: "Teko", serif;
-           font-weight: 500;
-           font-style: normal;
-        font-size: 1.5em;}
+          font-weight: 500;
+          font-style: normal;
+       font-size: 1.5em;}
+/*styling body*/
 body {
-    background-color: #4DCCBD;
+   background-color: #4DCCBD;
 }
+/*styling header*/
 header {
-    background-color: #FFFFFF;
-    box-shadow: 2 4px 5px rgba(0, 0, 0, 0.307);
-    display: flex;
-    align-items: center;
-    max-width: 110%;
-    max-height: 30px;
-    margin: 0 auto;
-   
+   background-color: #FFFFFF;
+   box-shadow: 2 4px 5px rgba(0, 0, 0, 0.307);
+   display: flex;
+   align-items: center;
+   max-width: 150%;
+   max-height: 150px;
+   margin: 0 auto;
+  
 }
+
 
 /*navagation*/
 .navlinks {
-    display: flex;
-    gap: 16px;
-    list-style: none;
-   padding: 1%;
-    margin-left: 65%;
+   display: flex;
+   gap: 16px;
+   list-style: none;
+  padding: 1%;
+   margin-left: 85%;
+}
+
+li {
+   font-size: 20px; /* navagation's font size */
+   align-items: center;
+}
+
+/*  search button */
+
+.search {
+   font-size: 2em;
+   background-color:#231651; 
+   color:white;
+    border-radius: 5px;
+    padding:16px;
+    margin-right: 100px;
+    margin-left: 42%;
+   
+}
+ /* Responsive Styling */
+    /*for mobiles*/
+    @media (min-width: 360px) and (max-width:720px){
+        header{margin:16px;
+        padding:16px;
+    gap:16px}
+    }
+    /*for tablet*/
+    @media (min-width: 720px) and (max-width:1024px) {
+        header {
+            padding: 8px 32px; 
+        }
+        .heading {
+            font-size: 3em; 
+        }
+        .navlinks {
+            gap: 32px;
+        }
+    }
     
+    /*for Desktop*/
+    @media (min-width: 1024px) {
+         /*styling div of  who-framed-roger-rabbit*/
+         header {
+           font-size:2em;
+           
+        }
+ .who-framed-roger-rabbit{
+   display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    margin-right: 15%;
+    margin-left: 15%;
+    max-width: 900px;
+  }
+  div.rabbit {background-color: #EEF36A;
+    text-align: center;
+   flex-basis: 170px;/*allowing to make img small and big within the layout*/
+  margin: 50px;
+width: auto;
+    height: auto;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+  margin-left: 13%;
+ 
+}
+div.poster_1{width: 950px;
+    height: 500px;}
+div .detail {
+    text-align: left;
+    padding: 0;
+    margin-left: 5%;
+}
+
+button.watch_now{background-color: #231651;
+    color: white;
+     font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+   margin-left: 70%;
+padding:48px;
+margin-bottom: 15px;
+}
+
+/*styling div for hook*/
+.movie_2_and_3 {
+    margin-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left; 
+    gap: 1px;
+ 
+}
+
+  div.Hook {background-color: #070410;
+     color: white;
+   flex-basis: 170px;
+    margin-top: 49px;
+     width: auto;
+    height: 900px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+}
+div.poster_2{width: 500px;
+    height: auto;}
+div.detail_2 {
+    text-align: left;
+    padding: 10px;
+}
+
+button.watch_now_1{ background-color: #231651;
+    color: white;
+    font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 20%;
+padding:48px;
+margin-bottom: 1%;}
+
+/*styling for div of la-la-land movie*/
+
+.movie_2_and_3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+   gap:0px;
+   
+}
+
+  div.la-la-land { background-color: #070410;
+    color: white;
+  flex-basis: 170px;
+ margin: 50px;
+ width: auto;
+   height: 900px;
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+gap:15px;
+
+ 
+}
+div.poster_3{width: 500px;
+    height: auto;}
+div.detail_3 {
+    text-align: left;
+    padding: 5px;
+}
+
+button.watch_now_2{ background-color: #231651;
+    color: white;
+    font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-top: 12%;
+    margin-left: 20%;
+padding:48px;
+}
+
+/*styling for hidden figures*/
+.hidden_figures {margin-top: 1%;
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    margin-left: 5%;
   
    
 }
 
- li {
-    font-size: 1em; /* Movie container font size */
-    align-items: center;
+div.hidden { background-color:  #EEF36A;;
+    color: white;
+  flex-basis: 100px;
+ margin-left: 190px;
+ width: 910px;
+   height: 470px;
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+    margin-right: 10%;
+ 
 }
-
-/* Button  search */
-
-.search {
-    font-size: 1em;
-    margin-left: 40%;
-    background-color:#231651; 
-    color:white;
-     border-radius: 5px;
-     padding:5px;
-     margin-right: 100px;
-     margin-left: 60%;
+div.poster_4{width: 500px;
+    height: auto;
+padding-left: 10%;}
+div.detail_4 {
+    text-align: left;
+    padding: 5px;
+    margin-right: 48%;
     
 }
 
-/*h2*/ 
-/*h2{ font-size: 5em;
-    }*/
+
+button.watch_now_3{ background-color: #231651;
+    color: white;
+    font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10%;
+padding:48px;
+margin-bottom: 8%;}
+
+/*styling of palm-spring movie div*/
+.palm-springs {
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    margin-left: 5%;
+    padding-top: 2%;
+  
+   
+}
+
+div.palm { background-color:  #EEF36A;;
+    color: white;
+  flex-basis: 100px;
+ margin-left: 190px;
+ width: 910px;
+   height: 470px;
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+    margin-right: 10%;
+ 
+}
+div.poster_5{width: 500px;
+    height: auto;
+padding-left: 10%;}
+div.detail_5 {
+    text-align: left;
+    padding: 5px;
+    margin-right: 48%;
+    
+}
+
+
+button.watch_now_4{ background-color: #231651;
+    color: white;
+    font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10%;
+padding:48px;
+margin-bottom: 8%;}
+/*styling of barbie div*/
+.barbie {
+    display: grid;
+    grid-template-columns: 650px 1fr;
+    margin-left: 5%;
+    padding-top: 2%;
+  
+   
+}
+
+div.bar_bie { background-color:  #EEF36A;;
+    color: white;
+  flex-basis: 100px;
+ margin-left: 190px;
+ width: 910px;
+   height: 470px;
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
+    margin-right: 10%;
+ 
+}
+div.poster_6{width: 500px;
+    height: auto;
+padding-left: 10%;}
+div.detail_6 {
+    text-align: left;
+    padding: 5px;
+    margin-right: 48%;
+    
+}
+
+
+button.watch_now_5{ background-color: #231651;
+    color: white;
+    font-size: 2em;
+    font-family: "Teko", sans-serif;
+    border-radius: 5px;
+    padding: 8px 16px;
+    margin-left: 10%;
+padding:48px;
+margin-bottom: 8%;}
+}
+
+
+
+
+
 
 
    
    
     /*styling div of  who-framed-roger-rabbit*/
 
- .who-framed-roger-rabbit{
+ /*.who-framed-roger-rabbit{
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
@@ -76,16 +337,16 @@ header {
   }
   div.rabbit {background-color: #EEF36A;
     text-align: center;
-   flex-basis: 170px;
-  margin: 50px;
+   flex-basis: 170px;/*allowing to make img small and big within the layout*/
+/*  margin: 50px;
 width: auto;
     height: auto;
     box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.307);
   margin-left: 13%;
  
 }
-div.poster_1{width: 900px;
-    height: 600px;}
+div.poster_1{width: 950px;
+    height: 500px;}
 div .detail {
     text-align: left;
     padding: 0;
@@ -104,12 +365,12 @@ margin-bottom: 5%;
 }
 
 /*styling div for hook*/
-.movie_2_and_3 {
+/*.movie_2_and_3 {
     margin-top: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: left; 
-   /* margin-right: 20%;*/
+
 }
 
   div.Hook {background-color: #070410;
@@ -142,12 +403,12 @@ margin-bottom: 1%;}
 
 /*styling for div of la-la-land movie*/
 
-.movie_2_and_3 {
+/*.movie_2_and_3 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
    margin: 10px;
-    /*width: 90%;*/
+    
    
 }
 
@@ -179,7 +440,7 @@ padding:0;
 }
 
 /*styling for hidden figures*/
-.hidden_figures {
+/*.hidden_figures {
     display: grid;
     grid-template-columns: 650px 1fr;
     margin-left: 5%;
@@ -219,10 +480,11 @@ padding:0;
 margin-bottom: 8%;}
 
 /*styling of palm-spring movie div*/
-.palm-springs {
+/*.palm-springs {
     display: grid;
     grid-template-columns: 650px 1fr;
     margin-left: 5%;
+    padding-top: 2%;
   
    
 }
@@ -258,7 +520,7 @@ button.watch_now_4{ background-color: #231651;
 padding:0;
 margin-bottom: 8%;}
 /*styling of barbie div*/
-.barbie {
+/*.barbie {
     display: grid;
     grid-template-columns: 650px 1fr;
     margin-left: 5%;
@@ -300,13 +562,13 @@ margin-bottom: 8%;}
 
     /* Responsive Styling */
     /*for mobiles*/
-    @media (min-width: 360px) and (max-width:720px){
+  /*  @media (min-width: 360px) and (max-width:720px){
         header{margin:16px;
         padding:16px;
     gap:16px}
     }
     /*for tablet*/
-    @media (min-width: 720px) and (max-width:1024px) {
+  /*  @media (min-width: 720px) and (max-width:1024px) {
         header {
             padding: 8px 32px; 
         }
@@ -319,9 +581,9 @@ margin-bottom: 8%;}
     }
     
     /*for Desktop*/
-    @media (min-width: 1024px) {
+   /* @media (min-width: 1024px) {
         header {
-            padding: 8px 48px; /* Desktop large spacing, but thinner */
+            padding: 8px 48px; 
         }
         .navlinks {
             gap: 48px;
