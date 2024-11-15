@@ -1,0 +1,206 @@
+body{background-color: rgb(0, 0, 0);
+    color: #070707;
+    font-style: italic;
+	 height: 100px;
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;}
+h1{text-align: center;
+ color: aliceblue;}
+    .bubble animation {
+        bottom: 0;
+        left: 0;
+        position: fixed;
+        right: 0;
+        top: 0;
+        z-index: -1;
+    }
+.card {background-color: aliceblue;
+    box-shadow: 0 8px 16px 0 rgba rgba(247, 5, 37, 0.942);
+    transition: 0.3s;
+    width: 300px;
+    margin-left: 500px;
+  }
+  
+  .card:hover {
+    box-shadow:  0 16px 42px 0  rgba(247, 5, 85, 0.942);
+  }
+  
+  .container {
+    padding: 10px 16px;
+  }
+h1{
+    text-align:center;}
+p{text-align: center;}
+
+button{ align-self: center;
+	background-color: rgb(234, 180, 87);
+	color: rgb(250, 2, 2);
+	box-shadow: 0 20px 42px 0 white;
+	border-radius: 30px;
+	margin-left: 600px;
+	
+}
+/* KEYFRAMES */
+
+@-webkit-keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-moz-keyframes animateBubble {
+   
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@keyframes animateBubble {
+    0% {
+        margin-top: 1000px;
+    }
+    100% {
+        margin-top: -100%;
+    }
+}
+
+@-webkit-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@-moz-keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+@keyframes sideWays { 
+    0% { 
+        margin-left:0px;
+    }
+    100% { 
+        margin-left:50px;
+    }
+}
+
+/* ANIMATIONS */
+
+.a1 {
+  
+	animation: animateBubble 25s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    /*linear infinite is for movement of bubble up and down */
+    /*ease-in out is for smooth movement of bubble*/
+    background-color: rgb(237, 214, 133);
+	
+	left: -5%;
+	top: 5%;
+	
+	
+	transform: scale(0.6);
+}
+
+.a2 {
+   
+	animation: animateBubble 20s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background-color:rgb(255, 200, 0);
+	
+	left: 5%;
+	top: 80%;
+	
+	
+
+	transform: scale(0.4);
+}
+
+.a3 {
+
+	animation: animateBubble 28s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background-color: rgb(0, 0, 0);
+	
+	left: 10%;
+	top: 40%;
+	
+	transform: scale(0.7);
+}
+
+.a4 {animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    background-color: rgb(255, 200, 0);
+	left: 20%;
+	top: 0;
+	transform: scale(0.3);
+}
+
+.a5 {animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background-color: rgb(0, 0, 0);
+	left: 30%;
+	top: 50%;
+   transform: scale(0.5);
+}
+
+.a6 {
+
+	animation: animateBubble 21s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background-color: rgb(255, 0, 106);
+	left: 50%;
+	top: 0;
+    transform: scale(0.8);
+}
+
+.a7 {animation: animateBubble 20s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background-color:rgb(255, 0, 106);
+	left: 65%;
+	top: 70%;
+	transform: scale(0.4);
+}
+
+.a8 {animation: animateBubble 22s linear infinite, sideWays 3s ease-in-out infinite alternate;
+    background-color: rgb(255, 213, 0);
+	left: 80%;
+	top: 10%;
+	transform: scale(0.3);
+}
+
+.a9 {animation: animateBubble 29s linear infinite, sideWays 4s ease-in-out infinite alternate;
+    background-color: rgb(255, 213, 0);
+	left: 90%;
+	top: 50%;
+	transform: scale(0.6);
+}
+
+.a10 {animation: animateBubble 26s linear infinite, sideWays 2s ease-in-out infinite alternate;
+    background-color: rgb(234, 207, 123);
+	left: 80%;
+	top: 80%;
+	
+
+	transform: scale(0.3);
+}
+
+/* Bubble*/
+
+.bubble {
+    border-radius: 50%;
+	
+	border-radius: 50%;
+	box-shadow: 0 20px 30px rgb(248, 245, 245), inset 0px 20px 30px 10px rgb(212, 12, 12);
+	height: 200px;
+	position: absolute;
+	width: 200px;
+}
+
+

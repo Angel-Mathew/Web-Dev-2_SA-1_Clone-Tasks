@@ -1,0 +1,18 @@
+body{background-color: #ffffff;
+color: #000000;
+text-size-adjust: 30px;}
+h1{text-align: center;}
+.flex-container {
+    display: flex;
+    background-color: #E9B44C;
+    margin: 50px;
+    size-adjust: 50px;
+    align-items: center;
+  }
+  
+  .flex-container div {
+    background-color: #E4D6A7;
+    margin: 90px;
+    padding: 10px;
+    font-size: 30px;
+  }

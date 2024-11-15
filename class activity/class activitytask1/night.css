@@ -1,0 +1,8 @@
+body{ background-color: black;
+    background-image:linear-gradient(black, rgb(252, 3, 3));
+   
+   }
+h1{font-family: monospace;
+font-style: italic;
+color: white;}   
+img{margin-left: 2%;}

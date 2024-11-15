@@ -1,0 +1,29 @@
+body{ font-family: Gelasio, serif;
+    background-color:#ef67cb;
+    color: rgba(10, 10, 10, 0.936);
+}
+header{padding: 2%;
+    background-color:#f31571}
+h1{text-align: center;}
+h3 {font-size: 30px;
+font-style: italic;
+text-align: center;
+}
+h2{font-size: 30px;
+    font-style: italic;
+text-align: center;}
+p{font-size: 25px;
+font-style: oblique;
+margin-left: 1%;}
+.navlinks{color: rgb(12, 12, 12);
+    display: flex;
+position: sticky;
+align-items: center;
+justify-content: space-between;
+
+top:0px}
+
+footer{padding: 2%;
+    background-color: #f31571;
+    margin-top: 10%;
+}
