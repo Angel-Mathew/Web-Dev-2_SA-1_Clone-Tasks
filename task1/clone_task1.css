@@ -1,10 +1,12 @@
+/*importing from google the  fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Protest+Guerrilla&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Protest+Guerrilla&display=swap');
+/*background for the page*/
 body {
     background-color: #e9e9e9;
 }
 
-
+/*styling header*/
 header {
     display: flex;
     flex-direction: column;
@@ -12,14 +14,14 @@ header {
     justify-content: center;
     padding: 1rem;
 }
-
+/*the logo*/
 .logo {
     width: 200px;
     height: auto;
     margin-bottom: 1rem;
     align-items: center;
 }
-
+/*the navgation*/
 .navlinks {
     color: rgb(12, 12, 12);
     display: flex;
@@ -35,7 +37,8 @@ li {
     padding: 60px;
 }
 
-
+/*the content of the page*/
+/*styling main div desktop_design*/
 .desktop_design {
     background-color: white;
     padding: 20px;
@@ -44,7 +47,7 @@ li {
     height: 1900px;
 
 }
-
+/*the main content*/
 .main-para h1,h2, h3, h4{
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 400;
@@ -59,13 +62,14 @@ li {
    
     font-style: normal;
 }
-
+/*styling 3 columns*/
 .row {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
     margin-top: 20px;
 }
+/*style the images*/
 .one_images {
    align-items: center;
    margin-left: -10px;
@@ -98,6 +102,7 @@ img {
   margin-left: 800px;
   margin-top: -270px;
 }
+/*styling author*/
 .author{margin-top: 35%;
 text-align: left;
 margin-left: 150px;
@@ -114,6 +119,7 @@ margin-right: 195px;
 }
 
 h2{text-align: center;}
+/*styling footer*/
 footer {
   background-color: #272727;
   text-align: center;
@@ -125,16 +131,19 @@ footer {
 /* For Mobiles small and large */
 /*for mobile small and large*/
 @media (min-width: 360px) and (max-width:540px) {
-  .logo {
+  .logo {margin-left: 20px;
     width: 80px;
   }
+  .navlinks{margin-left: 20px;
+  gap: 5px;
+}
   .logo{width:80px}
   .desktop_design {
     background-color: white;
     padding: 20px;
-    margin-left: 25px;
-    width: 800px;
-    height: 4000px;
+    margin-left: -1px;
+    width: 700px;
+    height: 4100px;
   }
   .main-para{
     text-align: center;}
@@ -143,19 +152,20 @@ footer {
     width: 5px;
         margin-top: 20px;
 }
-.one_images{margin-left: 40px;}
-.two_images1{margin-top: 10px;
-  margin-left: 95px;
+.one_images{margin-left: 47px;}
+.two_images1{margin-top: 1px;
+  margin-left: 100px;
 }
-.two_images2{margin-left:400px;
+.two_images2{margin-left:350px;
 }
-.author{margin-top: 35%;
+.author{margin-top: 45%;
   text-align: left;
   margin-left: 90px;
  
   }
 h2{text-align: left;}
-.author img{margin-left:550px;}
+.author img{margin-left:450px;
+margin-bottom: 20px;}
 }
 /*for large mobile*/
 @media(min-width:540px)and (max-width:720px)
@@ -177,12 +187,13 @@ h2{text-align: left;}
   width: 5px;
       margin-top: 20px;
 }
-.one_images{margin-left: 40px;}
-.two_images1{margin-top: 10px;
-margin-left: 95px;
+.one_images{margin-left: 47px;}
+.two_images1{margin-top: 1px;
+  margin-left: 100px;
 }
-.two_images2{margin-left:400px;
+.two_images2{margin-left:350px;
 }
+
 .author{margin-top: 35%;
 text-align: left;
 margin-left: 90px;
@@ -212,12 +223,13 @@ h2{text-align: left;}
     width: 5px;
         margin-top: 20px;
 }
-.one_images{margin-left: 40px;}
-.two_images1{margin-top: 10px;
-  margin-left: 95px;
+.one_images{margin-left: 47px;}
+.two_images1{margin-top: 1px;
+  margin-left: 100px;
 }
-.two_images2{margin-left:400px;
+.two_images2{margin-left:350px;
 }
+
 .author{margin-top: 35%;
   text-align: left;
   margin-left: 90px;
